@@ -1,2 +1,2 @@
 # fcc-Documentation-page
-FreeCodeCamp Project Responsive Web Design Projects  Technical Documentation Page
+This is the Technical Documentation Page FreeCodeCamp Project from Responsive Web Design Projects
