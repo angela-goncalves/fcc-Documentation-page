@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 html {
-    font-size: 16px;
+    font-size: 18px;
 }
 :root {
     --border-radius: 5px;
@@ -51,9 +51,9 @@ nav ul{
     text-align: left;
 }
 nav header{
-    /* font-size: 1.5rem; */
     background-color: var(--color);
-    color:var(--color2);
+    color: var(--color2);
+    text-align: center;
     font-family: var(--font-family-2);
 }
 nav li{
@@ -88,6 +88,30 @@ section header{
     color: var(--color5);
     font-family: var(--font-family-3);
 }
+.viruela{
+    width: 250px;
+    height: auto;
+}
+.cholera{
+    width: 240px;
+    height: auto;
+}
+.choleraBox, .viruelaBox{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.cells{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.cells img{
+    width: 250px;
+}
+.lastSection{
+    padding-bottom: 80px;
+}
 footer{
     position: absolute;
     bottom: 0;
@@ -97,14 +121,20 @@ footer{
 }
 .footer{
     display: flex;
-    flex-direction: row;
     justify-content: space-around;
     align-items: center;
-    margin-top: 20px;
-    padding: 10px;
+    padding: 5px;
 }
 footer p{
+    font-size: 0.5rem;
     color: #f2efea;
+    text-indent: 0px;
+}
+.ref{
+    padding: 0px 8px 8px 8px;
+}
+.icono{
+    width: 40px;
 }
 @media (max-width: 640px){
     body{
@@ -115,12 +145,23 @@ footer p{
         top: 0;
         left: 0;
         width:100%;
+        min-width: 270px;
         height: auto;
+        padding:0px;
     }
     main{
         position:relative;
         top: 350px;
         left: 0px;
         width: 100%; 
+    }
+    .cells img{
+        width: 50%;
+    }
+    .viruela{
+        width: 50%;
+    }
+    .lastSection{
+        padding-bottom: 130px;
     }
 }
