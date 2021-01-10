@@ -16,11 +16,7 @@ html {
     --color5: #8d6852;
     --font-family-1: 'Cinzel', serif;
     --font-family-2: 'Aleo', serif;
-    --font-family-3: 'Alegreya', serif;
-    --font-family-4: 
-    --font-family-5: 
-    --font-size1: 1.3rem;
-    --font-size2: 1.1rem
+    --font-family-3: 'Julius Sans One', sans-serif; 
 }
 body{
     line-height: 1.3;
@@ -44,17 +40,18 @@ nav{
     width: 350px;
     padding-left: 10px;
 }
-nav ul{
-    list-style-type: none;
-    background-color: var(--color);
-    color: var(--color2);
-    text-align: left;
-}
 nav header{
     background-color: var(--color);
     color: var(--color2);
     text-align: center;
     font-family: var(--font-family-2);
+    font-size: 1.2rem;
+}
+nav ul{
+    list-style-type: none;
+    background-color: var(--color);
+    color: var(--color2);
+    text-align: left;
 }
 nav li{
     border-bottom: solid;
@@ -65,6 +62,7 @@ h1{
     text-align: center;
     color: var(--color4);
     font-family: var(--font-family-1);
+    padding: 10px 0px;
 }
 main{
     position: absolute;
@@ -81,12 +79,13 @@ p {
 .main-section p{
     padding: 10px 0px;
 }
-section ul{
-    padding-inline-start: 20px;
-}
-section header{
+h2{
+    font-size: 1rem;
     color: var(--color5);
     font-family: var(--font-family-3);
+}
+section ul{
+    padding-inline-start: 20px;
 }
 .viruela{
     width: 250px;
@@ -137,9 +136,6 @@ footer p{
     width: 40px;
 }
 @media (max-width: 640px){
-    body{
-        font-size: 0.5rem;
-    }
     nav{
         position: absolute;
         top: 0;
@@ -151,7 +147,7 @@ footer p{
     }
     main{
         position:relative;
-        top: 350px;
+        top: 400px;
         left: 0px;
         width: 100%; 
     }
@@ -163,5 +159,8 @@ footer p{
     }
     .lastSection{
         padding-bottom: 130px;
+    }
+    h1{
+        font-size: 1.5rem;
     }
 }
