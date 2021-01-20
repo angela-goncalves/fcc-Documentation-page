@@ -27,10 +27,6 @@ a {
     color: inherit;
     text-decoration: none;
 }
-li{
-    padding: 10px 0px;
-    border-bottom: var(--color3);
-}
 nav{
     position: fixed;
     min-width: 290px;
@@ -46,12 +42,17 @@ nav header{
     text-align: center;
     font-family: var(--font-family-2);
     font-size: 1.2rem;
+    padding-top: 20px;
 }
 nav ul{
     list-style-type: none;
     background-color: var(--color);
     color: var(--color2);
     text-align: left;
+}
+li{
+    padding: 10px 0px;
+    border-bottom: var(--color3);
 }
 nav li{
     border-bottom: solid;
@@ -62,7 +63,7 @@ h1{
     text-align: center;
     color: var(--color4);
     font-family: var(--font-family-1);
-    padding: 10px 0px;
+    padding: 50px 0px;
 }
 main{
     position: absolute;
@@ -129,7 +130,7 @@ footer p{
     color: #f2efea;
     text-indent: 0px;
 }
-.ref{
+.reference{
     padding: 0px 8px 8px 8px;
 }
 .icono{
@@ -162,5 +163,6 @@ footer p{
     }
     h1{
         font-size: 1.5rem;
+        padding-top: 20px;
     }
 }
